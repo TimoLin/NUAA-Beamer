@@ -1,6 +1,13 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {2}{研究背景}{3}{0}{1}
+\defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {3}{研究内容}{5}{0}{2}
+\defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {4}{湍流两相燃烧的数学模型}{6}{0}{3}
+\defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {5}{数值求解方法}{10}{0}{4}
+\defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {6}{结果分析}{11}{0}{5}
+\defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {7}{Q\&A}{12}{0}{6}

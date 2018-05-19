@@ -12,6 +12,18 @@
 \usepackage{caption}
 \setbeamertemplate{caption}[numbered]{}% Number float-like environments
 
+%These 3 lines is used to correct the 'undefined control sequence \@@magyar@captionfix' error in TexLive2018
+%Ref: https://tex.stackexchange.com/questions/426088/texlive-pretest-2018-beamer-and-subfig-collide
+\makeatletter
+\let\@@magyar@captionfix\relax
+\makeatother
+%
+
+%bib reference
+\usepackage[backend=bibtex,style=ieee,sorting=none]{biblatex}
+\addbibresource{ref.bib}
+\setbeamerfont{footnote}{size=\tiny}
+
 \begin{document}
 
 \graphicspath{{figures/}} % figures path
@@ -75,7 +87,7 @@
   \begin{block}{Smagorinsky-Lilly模型}
     基于涡粘假设
   \end{block}
-  \begin{block}{动态亚网格模型}
+  \begin{block}{动态亚网格模型\footfullcite{germano1991dynamic}}
     通过可解尺度涡旋的局部特性来确定小尺度涡旋的模型系数
   \end{block}
 \end{frame}
